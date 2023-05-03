@@ -1,0 +1,22 @@
+.containerProjetos{
+    margin: 50px auto -50px;
+    height: 100vh;
+}
+
+.projetos{
+    margin: auto;
+    width: 80vw;
+    height: 70vh;
+}
+
+.imgProjetos{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 50px;
+}
+
+.imgProjetos > .iconProjeto{
+    image-rendering: pixelated;
+    height: 200px;
+    min-height:max-content;
+}
