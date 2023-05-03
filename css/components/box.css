@@ -1,4 +1,4 @@
-#box{
+.box{
     display: flex;
     flex-direction: column;
     background-color: #c3c3c36e;
@@ -9,6 +9,6 @@
     border-right: 5px solid white;
 }
 
-#box h1{
+.box .title{
     margin-bottom: 28px;
 }
