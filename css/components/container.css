@@ -17,4 +17,13 @@
 }
 
 
+.container{
+    margin: 50px auto -50px;
+    height: 100vh;
+}
 
+.container .window{
+    margin: auto;
+    width: 80vw;
+    height: 70vh;
+}

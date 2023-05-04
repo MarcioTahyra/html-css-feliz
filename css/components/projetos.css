@@ -1,14 +1,3 @@
-.containerProjetos{
-    margin: 50px auto -50px;
-    height: 100vh;
-}
-
-.projetos{
-    margin: auto;
-    width: 80vw;
-    height: 70vh;
-}
-
 .imgProjetos{
     display: flex;
     justify-content: space-between;
