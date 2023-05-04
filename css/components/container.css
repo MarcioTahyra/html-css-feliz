@@ -4,6 +4,7 @@
 }
 
 .window > .winHeader {
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     background: linear-gradient(90deg, #000b7c, #377cc6);
@@ -12,6 +13,7 @@
 }
 
 .headerBtn{
+    cursor: pointer;
     display: flex;
     gap: 3px;
 }

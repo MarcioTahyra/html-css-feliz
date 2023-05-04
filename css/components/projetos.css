@@ -4,7 +4,7 @@
     padding: 100px 50px;
 }
 
-.imgProjetos > .iconProjeto{
+.imgProjetos .iconProjeto{
     image-rendering: pixelated;
     height: 200px;
     min-height:max-content;
