@@ -9,3 +9,7 @@
     height: 200px;
     min-height:max-content;
 }
+
+.soon{
+    cursor: no-drop;
+}

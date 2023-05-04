@@ -29,13 +29,13 @@
 
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <img class="img logo" src="assets/img/logo.png" alt="logo">
         <nav>
-            <a class="action" href="">Skills</a>
-            <a class="action" href="">Projetos</a>
-            <a class="action" href="">Sobre</a>
-            <a class="action" href="">Contatos</a>
+            <a class="action" href="#skills">Skills</a>
+            <a class="action" href="#projetos">Projetos</a>
+            <a class="action" href="#sobre">Sobre</a>
+            <a class="action" href="#contatos">Contatos</a>
             <a href="" class="window btn" id="download">Download CV</a>
         </nav>    
     </header>
@@ -47,7 +47,7 @@
         </div>
     </section>
 
-    <section class="container">
+    <section class="container" id="skills">
         <div class="window skills">
             <div class="winHeader"> 
                 <p> Skills </p>
@@ -158,7 +158,7 @@
         </div>
     </section>
 
-    <section class="container">
+    <section class="container" id="projetos">
         <div class="window projetos">
             <div class="winHeader"> 
                 <p> Projetos </p>
@@ -173,17 +173,13 @@
                 <a href="">
                     <img class="img iconProjeto" src="./assets/img/logo.png" alt="logo">
                 </a>
-                <a href="">
-                    <img class="img iconProjeto" src="./assets/img/folder.png" alt="folder">
-                </a>
-                <a href="">
-                    <img class="img iconProjeto" src="./assets/img/folder.png" alt="folder">
-                </a>
+                <img class="img iconProjeto soon" src="./assets/img/folder.png" alt="folder">
+                <img class="img iconProjeto soon" src="./assets/img/folder.png" alt="folder">
             </div>
         </div>
     </section>
 
-    <section class="container">
+    <section class="container" id="sobre">
         <div class="window sobre">
             <div class="winHeader"> 
                 <p> Sobre </p>
@@ -199,7 +195,7 @@
     </section>
 
     <footer class="footer window">
-        <a href="">
+        <a href="#header">
             <img class="start window img" src="./assets/img/logoStart.png" alt="botão start do windows">
         </a>
         <div class="time"> 12:45 </div>
