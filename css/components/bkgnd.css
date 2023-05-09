@@ -1,0 +1,10 @@
+.bkgnd{
+    background-image: url(../../assets/img/bkgnd.png);
+    height: 86vh;
+    background-position: center;
+    background-repeat: none;
+    background-size:cover;
+    background-attachment:fixed;
+    border-bottom: 4px solid #010081;
+    padding: 100px 250px;
+}

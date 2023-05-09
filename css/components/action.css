@@ -1,0 +1,21 @@
+.action{
+    display: inline-flex;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.action::before{
+    transition: 100ms cubic-bezier(1, 0.98, 0.54, 1.48);
+    content: "";
+    background-color: #010081;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.action:hover::before{
+    transform: scale(1.5);
+}

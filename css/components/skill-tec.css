@@ -1,0 +1,41 @@
+.skillTec{
+    align-items: center;
+    display: flex;
+}
+
+.skillTec .icon{
+    margin-right: 25px;
+    width: 90px;
+    height: 90px;
+}
+
+.skillTec .subtitle{
+    margin-bottom: 10px;
+}
+
+.skillTec .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.skillsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 15px auto;
+}
+
+.skillsContainer .skillTec{
+    width: 430px;
+    margin-bottom: 30px;
+}
+
+.skillsContainer .borda{
+    width: 300px;
+    height: 30px;
+}
+
+.skillsContainer .skillTec:nth-child(odd){
+    margin-right: 100px;
+}

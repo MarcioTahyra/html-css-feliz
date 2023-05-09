@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  }
+  
+  ul,
+  ol,
+  li {
+	list-style: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
